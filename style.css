@@ -10,14 +10,12 @@ body {
   font-family: Arial, sans-serif;
 	background-color: rgba(173, 216, 230, 0.287);
 	
-	overflow: scroll;
 }
 
 section {
   display: grid;
 	height: 85%;
   grid-template-columns: repeat(4, minmax(10em, 1fr));
-	overflow: scroll;
   padding: 20px;
 }
 
