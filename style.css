@@ -136,10 +136,18 @@ footer a {
 	section {
 		grid-template-columns: repeat(2, minmax(100px, 1fr));
 	}
+
+	nav{
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 600px) { 
 	section {
 		grid-template-columns: repeat(1, minmax(200px, 1fr));
+	}
+
+	nav {
+		justify-content: center;
 	}
 }
