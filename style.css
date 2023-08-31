@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap');
 
 html{
-	height: 100vh;
+	height: 100%;
 
 }
 body {
@@ -9,19 +9,21 @@ body {
 	height: 100%;
   font-family: Arial, sans-serif;
 	background-color: rgba(173, 216, 230, 0.287);
+	
+	overflow: scroll;
 }
 
 section {
   display: grid;
 	height: 85%;
-  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, minmax(10em, 1fr));
+	overflow: scroll;
   padding: 20px;
 }
 
 article {
 	display: grid;
 	margin: 1em;
-	grid-template-rows: repeat(3);
   background-color: #fff;
   border-radius: 10px;
 	text-align: center;
@@ -41,6 +43,7 @@ article img {
 	width: 80px;
 	height: 80px;
   max-width: 100%;
+	margin-top: 1.5em;
 }
 
 article h2 {
