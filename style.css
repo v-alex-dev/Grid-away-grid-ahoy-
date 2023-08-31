@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap');
 
+html{
+	height: 100vh;
+
+}
 body {
   margin: 0;
+	height: 100%;
   font-family: Arial, sans-serif;
 	background-color: rgba(173, 216, 230, 0.287);
 }
 
 section {
   display: grid;
+	height: 85%;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   padding: 20px;
 }
@@ -85,4 +91,46 @@ article button:hover {
 	border-color: #fff;
 
 	transition-duration: 0.5s;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 3em;
+	margin-bottom: 2em;
+}
+
+nav {
+	height: 100%;
+	background-color: rgba(15, 107, 138, 0.494);
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: end;
+	align-items: center;
+
+}
+
+a {
+	margin-right: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 3em;
+	margin-bottom: 2em;
+	background-color: rgba(15, 107, 138, 0.494);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	margin: 0;
 }
