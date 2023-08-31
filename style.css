@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap');
 
-html{
-	height: 100%;
-
-}
 body {
   margin: 0;
 	height: 100%;
@@ -134,4 +130,16 @@ footer {
 
 footer a {
 	margin: 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) { 
+	section {
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+	}
+}
+
+@media screen and (max-width: 600px) { 
+	section {
+		grid-template-columns: repeat(1, minmax(200px, 1fr));
+	}
 }
